@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px 35px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  margin: 20px auto;
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.add-note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-note label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sticky-note {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sticky-note button:hover {
+  background-color: red;
+  border-radius: 20px;
+}
+.note {
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 20px 50px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  transition: transform 0.2s ease;
+}
+
+.note:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+
+  transform: scale(1.01);
+}
+
+.note h2 {
+  color: #007bff;
+  font-size: 1.5em;
+}
+
+.note p {
+  color: #333;
+  font-size: 1em;
+  text-align: justify;
+}
